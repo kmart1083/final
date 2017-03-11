@@ -8,9 +8,9 @@ var SortBar = React.createClass({
       <div className="sort row">
         <div className="col-sm-12">
           <ul className="nav nav-pills">
-            <NavBarItem view="latest" title="Reviews" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
-            <NavBarItem view="alpha" title="Jukebox" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
-            <NavBarItem view="map" title="Emotions" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
+            <NavBarItem view="latest" title="By Release Date" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
+            <NavBarItem view="alpha" title="A to Z" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
+            <NavBarItem view="map" title="Theater Map" currentView={this.props.currentView} viewChanged={this.props.viewChanged} />
             <li className="nav-text pull-right">{this.props.movieCount} movies</li>
           </ul>
         </div>
